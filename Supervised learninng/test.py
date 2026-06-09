@@ -55,7 +55,6 @@ acc_history_test=[]
 
 for epoch in range(500):
   # image_data = X_train.values.astype('uint8').reshape(28, 28)
-  df = pd.read_csv('fashion-mnist_train.csv')
   image_data = df.iloc[0, 1:].values.astype('uint8').reshape(28, 28)
   print(image_data.shape)
   img = Image.fromarray(image_data)
@@ -64,7 +63,7 @@ for epoch in range(500):
 
   img_shift = ImageChops.offset(img_rotate, 3, 0)
 
-  Aug_data = img_shift.reshape(-1,784)
+  Aug_data = np.array(img_shift).reshape(-1,784)
 
   A_=Aug_data.T
   A=[]
