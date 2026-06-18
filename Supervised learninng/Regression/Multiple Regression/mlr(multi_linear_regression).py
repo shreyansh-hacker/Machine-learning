@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: mlr(multi_linear_regression).py
+Description: Multiple Linear Regression from scratch.
+Methodology:
+  1. Generate synthetic 3-feature dataset.
+  2. Predict output using vectorized matrix multiplication (X @ W + b).
+  3. Compute MSE cost and parameter gradients.
+  4. Update weights and plot cost minimization.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

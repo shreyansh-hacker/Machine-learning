@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: practice.py
+Description: MLP training from scratch incorporating online image augmentation.
+Methodology:
+  1. Load Fashion-MNIST dataset.
+  2. For each epoch, extract and augment training images using PIL (rotation and translation).
+  3. Perform MLP forward propagation, loss calculation, backprop, and weight updates.
+  4. Plot training loss and test curves.
+================================================================================
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

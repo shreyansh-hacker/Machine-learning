@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: svrlagrangebased.py
+Description: Support Vector Regression (SVR) using Scikit-Learn.
+Methodology:
+  1. Read data from 'polynomial_data.csv'.
+  2. Fit an SVR model with RBF kernel, custom C penalty, and epsilon margin.
+  3. Compute MSE score on training coordinates.
+  4. Plot regression fit curve and highlight Support Vectors.
+================================================================================
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

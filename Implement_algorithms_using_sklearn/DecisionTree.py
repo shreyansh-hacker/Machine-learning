@@ -1,3 +1,17 @@
+"""
+================================================================================
+Module Name: DecisionTree.py
+Description: Classification using Scikit-Learn's DecisionTreeClassifier.
+Methodology:
+  1. Load dataset containing animal features.
+  2. Encode categorical input features using LabelEncoder.
+  3. Split data into training and test splits (60-40).
+  4. Fit a DecisionTreeClassifier using entropy (Information Gain) as split criterion.
+  5. Evaluate classifier accuracy and output a detailed classification report.
+  6. Plot and visualize the decision tree structure.
+================================================================================
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

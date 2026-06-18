@@ -1,3 +1,17 @@
+"""
+================================================================================
+Module Name: Multivariablelinear.py
+Description: Multiple Linear Regression using Scikit-Learn's LinearRegression.
+Methodology:
+  1. Generate synthetic data with 3 random features and linear target + noise.
+  2. Plot training data relative to the first feature.
+  3. Fit a LinearRegression model.
+  4. Retrieve coefficients (weights) and intercept.
+  5. Evaluate predictions using Mean Squared Error (MSE) and R-squared (R2) scores.
+  6. Plot actual vs predicted values scatter.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

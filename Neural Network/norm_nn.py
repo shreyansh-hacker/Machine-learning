@@ -1,3 +1,14 @@
+"""
+================================================================================
+Module Name: norm_nn.py
+Description: Data normalization inspection for neural network training.
+Methodology:
+  1. Generate a synthetic coffee dataset.
+  2. Plot class points (normal vs anomaly).
+  3. Display maximum and minimum statistics of inputs before normalization.
+================================================================================
+"""
+
 import numpy as np
 import tensorflow as tf
 from matplotlib import pyplot as plt

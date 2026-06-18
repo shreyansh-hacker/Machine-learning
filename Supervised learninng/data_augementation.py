@@ -1,3 +1,17 @@
+"""
+================================================================================
+Module Name: data_augementation.py
+Description: Image Data Augmentation using Python Imaging Library (PIL).
+Methodology:
+  1. Read Fashion-MNIST CSV dataset.
+  2. Reshape the first image row into a 28x28 2D numpy array.
+  3. Convert numpy array to PIL Image object.
+  4. Apply left-right flipping, 15-degree rotation, and horizontal offset shift.
+  5. Plot comparison showing original and augmented image transformations.
+  6. Save output comparison as 'augmented_fashion.png'.
+================================================================================
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

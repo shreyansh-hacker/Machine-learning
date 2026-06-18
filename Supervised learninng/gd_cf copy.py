@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: gd_cf copy.py
+Description: Loop-based Simple Linear Regression with Gradient Descent.
+Methodology:
+  1. Generate synthetic 1D linear data.
+  2. Loop explicitly over each data point to compute prediction error, accumulated cost (MSE), and gradients.
+  3. Update slope and intercept weights iteratively.
+  4. Plot fitted line and cost history.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

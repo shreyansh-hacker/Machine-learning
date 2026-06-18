@@ -1,3 +1,16 @@
+"""
+================================================================================
+Module Name: polynomialregression.py
+Description: Polynomial Logistic Regression Pipeline using Scikit-Learn.
+Methodology:
+  1. Generate synthetic classification dataset.
+  2. Define pipeline with PolynomialFeatures (degree=5), StandardScaler, and LogisticRegression.
+  3. Fit the pipeline and print the training accuracy score.
+  4. Predict probabilities across a 2D mesh grid.
+  5. Plot the non-linear decision boundary contour.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

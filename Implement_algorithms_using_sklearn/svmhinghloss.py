@@ -1,3 +1,14 @@
+"""
+================================================================================
+Module Name: svmhinghloss.py
+Description: Polynomial Support Vector Classification using Scikit-Learn's SVC.
+Methodology:
+  1. Set up a pipeline containing StandardScaler, PolynomialFeatures (degree=8), and SVC (linear kernel).
+  2. Fit the model on training data.
+  3. Plot non-linear decision boundaries, margins, and highlight Support Vectors.
+================================================================================
+"""
+
 from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC

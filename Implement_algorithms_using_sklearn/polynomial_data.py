@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: polynomial_data.py
+Description: Polynomial Regression Pipeline using Scikit-Learn.
+Methodology:
+  1. Read x_train and y_train from 'polynomial_data.csv'.
+  2. Define pipeline with PolynomialFeatures (degree=17), StandardScaler, and LinearRegression.
+  3. Fit the model and compute MSE and R2 scores.
+  4. Plot data points against the fitted high-degree polynomial curve.
+================================================================================
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

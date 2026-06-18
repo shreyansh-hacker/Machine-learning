@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: plr.py
+Description: Polynomial Regression from scratch.
+Methodology:
+  1. Read x_train and y_train from 'polynomial_data.csv'.
+  2. Create degree-17 design matrix columns.
+  3. Scale design matrix features to zero-mean and unit variance.
+  4. Optimize parameters using gradient descent, plotting fitted curve and cost history.
+================================================================================
+"""
+
 import pandas as pd 
 import numpy as np
 import matplotlib.pyplot as plt

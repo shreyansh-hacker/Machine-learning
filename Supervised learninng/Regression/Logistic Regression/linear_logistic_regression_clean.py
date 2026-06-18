@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: linear_logistic_regression_clean.py
+Description: Vectorized Binary Logistic Regression operations.
+Methodology:
+  1. Generate classification dataset using make_classification.
+  2. Initialize weights and bias.
+  3. Compute prediction probabilities using Sigmoid function.
+  4. Calculate Binary Cross-Entropy Cost using vectorized numpy matrices, including clipping.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_classification

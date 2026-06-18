@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: KNN_LogisticRegression.py
+Description: Classification using Scikit-Learn's KNeighborsClassifier.
+Methodology:
+  1. Generate a synthetic 2D binary classification dataset.
+  2. Define and train a KNeighborsClassifier with k=5.
+  3. Evaluate training accuracy score.
+  4. Plot class predictions using distinct colors.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_classification

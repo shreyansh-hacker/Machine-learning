@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: plr-root_cube_ft.py
+Description: Regression using custom engineered non-linear features.
+Methodology:
+  1. Read input data from CSV.
+  2. Engineer new feature columns: x, sqrt(x), x^3, and exp(x).
+  3. Standardize inputs to prevent optimization problems.
+  4. Optimize weights using gradient descent and plot fitting line.
+================================================================================
+"""
+
 import pandas as pd 
 import numpy as np
 import matplotlib.pyplot as plt

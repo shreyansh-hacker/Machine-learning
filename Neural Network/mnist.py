@@ -1,3 +1,16 @@
+"""
+================================================================================
+Module Name: mnist.py
+Description: Multi-Layer Perceptron (MLP) from scratch for digit classification (MNIST).
+Methodology:
+  1. Load dataset, perform stratified splitting manually per digit label.
+  2. Standardize input pixels using mean and standard deviation.
+  3. Implement forward and backward propagation manually.
+  4. Track training/testing cost and accuracy over epochs.
+  5. Plot optimization progression curves.
+================================================================================
+"""
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
@@ -63,6 +76,7 @@ X= df.iloc[0:,1:].values
 #train
 y_ = np.eye(10)[y] # y one hot
 X = (X-X.mean()) / X.std()
+
 
 #test
 

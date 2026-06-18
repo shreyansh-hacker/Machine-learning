@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: KNN_Linear Regression.py
+Description: Regression using Scikit-Learn's KNeighborsRegressor.
+Methodology:
+  1. Generate synthetic linear regression data with gaussian noise.
+  2. Define K-Nearest Neighbors regressor model with k=5.
+  3. Train the model on the generated 1D linear data.
+  4. Plot training data points alongside the model's regression predictions.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsRegressor

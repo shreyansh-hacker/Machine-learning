@@ -1,3 +1,14 @@
+"""
+================================================================================
+Module Name: svmlagrangebased.py
+Description: Kernel Support Vector Classification using Scikit-Learn's SVC.
+Methodology:
+  1. Generate a synthetic roasting dataset (temperature vs duration).
+  2. Train an SVC model using the Radial Basis Function (RBF) kernel.
+  3. Plot decision regions, boundary lines, and highlight Support Vectors.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.svm import SVC

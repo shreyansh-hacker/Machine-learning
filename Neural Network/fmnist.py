@@ -1,3 +1,18 @@
+"""
+================================================================================
+Module Name: fmnist.py
+Description: Multi-Layer Perceptron (MLP) from scratch for Fashion-MNIST.
+Methodology:
+  1. Load dataset, split train/test (80-20), normalize pixels (/255).
+  2. Define activation functions: Softmax, Sigmoid (with derivative), ReLU (with derivative).
+  3. Initialize network weights using He Initialization (variance-scaled random numbers).
+  4. Run forward propagation, calculate cross-entropy loss and accuracy.
+  5. Backpropagate error derivatives through hidden and output layers.
+  6. Update parameters using Gradient Descent optimization.
+  7. Plot training and testing curves (Loss & Accuracy).
+================================================================================
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

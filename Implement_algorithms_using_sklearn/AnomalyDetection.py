@@ -1,3 +1,16 @@
+"""
+================================================================================
+Module Name: AnomalyDetection.py
+Description: Anomaly Detection using Scikit-Learn's EllipticEnvelope.
+Methodology:
+  1. Load a synthetic coffee dataset containing temperature and roasting duration.
+  2. Label normal points using mathematical roasting limits (Normal vs Anomaly).
+  3. Standardize and split the data, filtering out anomalies for training.
+  4. Fit an EllipticEnvelope model only on the normal roasting dataset.
+  5. Predict anomalies on the full dataset and evaluate using Accuracy and F1 Score.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.covariance import EllipticEnvelope

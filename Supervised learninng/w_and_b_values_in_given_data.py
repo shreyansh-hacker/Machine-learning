@@ -1,3 +1,14 @@
+"""
+================================================================================
+Module Name: w_and_b_values_in_given_data.py
+Description: Closed-form parameter optimization for simple linear regression.
+Methodology:
+  1. Generate synthetic 1D linear dataset.
+  2. Analytically optimize parameters w (slope) and b (intercept) using summation formulas.
+  3. Print solved optimal analytical parameter values.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

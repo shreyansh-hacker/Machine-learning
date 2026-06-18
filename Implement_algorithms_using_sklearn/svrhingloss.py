@@ -1,3 +1,14 @@
+"""
+================================================================================
+Module Name: svrhingloss.py
+Description: High-Degree Polynomial Regression using Scikit-Learn.
+Methodology:
+  1. Load polynomial coordinates from CSV.
+  2. Create degree-8 polynomial pipeline with standard linear regression.
+  3. Compute MSE and plot the fitted curve.
+================================================================================
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

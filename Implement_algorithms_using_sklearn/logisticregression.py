@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: logisticregression.py
+Description: Logistic Regression using Scikit-Learn.
+Methodology:
+  1. Generate classification dataset.
+  2. Scale inputs using StandardScaler.
+  3. Train a LogisticRegression model and retrieve classification accuracy.
+  4. Solve parameters analytically to plot the linear decision boundary line.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_classification

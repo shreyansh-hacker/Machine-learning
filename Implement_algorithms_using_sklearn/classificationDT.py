@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: classificationDT.py
+Description: Classification using Scikit-Learn's DecisionTreeClassifier.
+Methodology:
+  1. Generate synthetic binary classification dataset.
+  2. Train a DecisionTreeClassifier using entropy as splitting criterion.
+  3. Visualize tree nodes.
+  4. Plot decision boundary region mesh showing classification partition.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

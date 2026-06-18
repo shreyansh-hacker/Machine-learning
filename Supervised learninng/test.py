@@ -1,3 +1,14 @@
+"""
+================================================================================
+Module Name: test.py
+Description: MLP training incorporating online data augmentation (rotation & translation).
+Methodology:
+  1. Train MLP on Fashion-MNIST dataset.
+  2. Augment images with PIL rotate and translate functions inside epoch iterations.
+  3. Plot loss and accuracy metrics over time.
+================================================================================
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

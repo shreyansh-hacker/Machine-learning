@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: gd_cf.py
+Description: Vectorized Simple Linear Regression with Gradient Descent.
+Methodology:
+  1. Generate synthetic 1D linear data.
+  2. Compute predictions, cost (MSE), and parameter gradients using NumPy vectorization.
+  3. Update weights using gradient descent rules.
+  4. Plot optimized regression fit line and cost history.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

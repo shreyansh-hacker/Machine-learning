@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: polynomial_logistic_regression_clean.py
+Description: Polynomial Logistic Regression from scratch.
+Methodology:
+  1. Generate a synthetic 2D binary classification dataset.
+  2. Create degree-3 polynomial combinations of input features.
+  3. Train a classification model using sigmoid activations and cross-entropy loss gradient descent.
+  4. Mesh grid predictions to plot the non-linear decision boundary boundary line.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_classification

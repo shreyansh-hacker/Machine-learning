@@ -1,3 +1,16 @@
+"""
+================================================================================
+Module Name: Regreesion DT.py
+Description: Regression using Scikit-Learn's DecisionTreeRegressor.
+Methodology:
+  1. Generate synthetic 1D linear data with gaussian noise.
+  2. Train a DecisionTreeRegressor of depth 3.
+  3. Evaluate model predictions on a test split using Mean Squared Error.
+  4. Plot tree structure.
+  5. Render the non-linear step-like regression prediction curve.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

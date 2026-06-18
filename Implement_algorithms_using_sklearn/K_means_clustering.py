@@ -1,3 +1,15 @@
+"""
+================================================================================
+Module Name: K_means_clustering.py
+Description: Unsupervised Clustering using Scikit-Learn's KMeans.
+Methodology:
+  1. Generate synthetic 2D classification dataset.
+  2. Fit KMeans clustering with k=3 cluster centers.
+  3. Retrieve cluster label assignments and cluster centroids.
+  4. Plot the clusters and label their respective centroids.
+================================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_classification
